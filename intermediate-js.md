@@ -4,9 +4,28 @@
 
 1. What is the difference between .map() and .filter()?
 
+They do different things: filter returns a subset of the elements from the original array, map produces an array with new different entries based on the elements in the original array.
+
 2. Why would you use object destructuring?
 
+To unpack values from arrays or properties from objects into distinct variables
+
 3. What is the difference between var, let, and const?
+
+var declarations are globally scoped or function scoped
+var variables can be updated and re-declared within its scope
+var variables are hoisted to the top of their scope and are initialized with undefined
+var can be declared without being initialized
+
+let is block scoped
+let variables can be updated but not re-declared
+let variables are hoisted to the top of their scope and are not initialized
+let can be declared without being initialized
+
+const is block scoped
+const variables can not be updated nor re-declared
+const variables are hoisted to the top of their scope and are not initialized
+const must be initialized during declaration
 
 4. Why is testing important?
 
